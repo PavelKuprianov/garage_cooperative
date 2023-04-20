@@ -3,7 +3,7 @@
     
 <head>
         <meta charset="utf-8">
-        <title>Universal Page - универсальный шаблон сайта</title>
+        <title>Клиентам</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="css/themify-icons.css" rel="stylesheet" type="text/css" media="all"/>
@@ -43,7 +43,7 @@
 
 				<div class="nav-bar text-center">
 					<div class="col-md-2 col-md-push-5 col-sm-12 text-center">
-						<a href="#" id="logo-text">
+						<a href="index.html" id="logo-text">
 							"СЕЙФ"
 						</a>
 					</div>
@@ -59,15 +59,15 @@
 
 					<div class="col-md-5 col-sm-12 pb-xs-24">
 						<ul class="menu">
-							<li><a href="#">Статьи</a>
+							<li><a  style="color: darkred;" href="#">Клиентам</a>
 								<ul>
-									<li><a href="class-single.html">Статья №1</a></li>
-									<li><a href="class-single.html">Статья №1</a></li>
-									<li><a href="class-single.html">Статья №1</a></li>
-									<li><a href="class-single.html">Статья №1</a></li>
+									<li><a href="class-single.html">Парковка</a></li>
+									<li><a href="class-single.html">Боксы</a></li>
+									<!--									<li><a href="class-single.html">Статья №1</a></li>-->
+									<!--									<li><a href="class-single.html">Статья №1</a></li>-->
 								</ul>
 							</li>
-							<li><a href="info.html">Информация</a></li>
+							<li><a href="info.html">Стоимость</a></li>
 							<li><a href="contact-form.html">Контакты</a>
 							</li>
 						</ul>
@@ -156,10 +156,10 @@
 					<div class="bg-secondary pt64 pb64">
 						<h4 class="uppercase mb16">Подписаться</h4>
 						<p>
-							Будьте в курсе всех событий Интернета
+							Будьте в курсе всех событий
 						</p>
-						<form class="form-newsletter" data-success="Отправлено!">
-							<input type="text" class="validate-required validate-email signup-email-field" placeholder="Введите Email" />
+						<form action="php/subscription.php" method="post"  class="form-newsletter" data-success="Отправлено!">
+							<input required name="email"  type="text" class="validate-required validate-email signup-email-field" placeholder="Введите Email" />
 							<input type="submit" class="btn" value="Подписаться" />
 						</form>
 					</div>

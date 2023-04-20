@@ -3,7 +3,7 @@
     
 <head>
         <meta charset="utf-8">
-        <title>Universal Page - универсальный шаблон сайта</title>
+        <title>Стоимость</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="css/themify-icons.css" rel="stylesheet" type="text/css" media="all"/>
@@ -43,7 +43,7 @@
 
 				<div class="nav-bar text-center">
 					<div class="col-md-2 col-md-push-5 col-sm-12 text-center">
-						<a href="#" id="logo-text">
+						<a href="index.html" id="logo-text">
 							"СЕЙФ"
 						</a>
 					</div>
@@ -59,15 +59,15 @@
 
 					<div class="col-md-5 col-sm-12 pb-xs-24">
 						<ul class="menu">
-							<li><a href="#">Статьи</a>
+							<li><a href="#">Клиентам</a>
 								<ul>
-									<li><a href="class-single.html">Статья №1</a></li>
-									<li><a href="class-single.html">Статья №1</a></li>
-									<li><a href="class-single.html">Статья №1</a></li>
-									<li><a href="class-single.html">Статья №1</a></li>
+									<li><a href="class-single.html">Парковка</a></li>
+									<li><a href="class-single.html">Боксы</a></li>
+									<!--									<li><a href="class-single.html">Статья №1</a></li>-->
+									<!--									<li><a href="class-single.html">Статья №1</a></li>-->
 								</ul>
 							</li>
-							<li><a href="info.html">Информация</a></li>
+							<li><a style="color: darkred;" href="info.html">Стоимость</a></li>
 							<li><a href="contact-form.html">Контакты</a>
 							</li>
 						</ul>
@@ -89,7 +89,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12 text-center">
-					<h1 class="uppercase mb0">Данные по шаблону</h1>
+					<h1 class="uppercase mb0">Цена на услуги</h1>
 				</div>
 			</div><!--end of row-->
 		</div><!--end of container-->
@@ -99,11 +99,17 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-5 col-sm-6 pt120 pb120 pt-xs-80 pb-xs-80 bg-dark text-center">
-					<h4 class="uppercase mb40 mb-xs-24">Personal Training</h4>
+					<h4 class="uppercase mb40 mb-xs-24">Стоимость парковочного места</h4>
 					<p class="p32 mb40 mb-xs-24">
-						Our intimate studio provides the perfect environment for one-on-one, personal training sessions. Our friendly team are here to help you achieve your fitness goals.
+						Первый час - бесплатно<br>
+						Далее - 30 рублей в час<br>
+						Суточный абонемент - 500 рублей<br>
+						Месячный абонемент - 10 000 рублей<br>
+						Абонемент на квартал - 20 000 рублей<br>
+						Абонемент на полгода - 35 000 рублей<br>
+						Годовой абонемент - 50 000 рублей
 					</p>
-					<a class="btn mb0" href="#">More Info</a>
+<!--					<a class="btn mb0" href="#">More Info</a>-->
 				</div>
 			</div><!--end of row-->
 		</div><!--end of container-->
@@ -117,11 +123,13 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-5 col-sm-6 pt120 pb120 pt-xs-80 pb-xs-80 bg-dark text-center" style="float:right;">
-					<h4 class="uppercase mb40 mb-xs-24">Personal Training</h4>
+					<h4 class="uppercase mb40 mb-xs-24">Аренда боксов</h4>
 					<p class="p32 mb40 mb-xs-24">
-						Our intimate studio provides the perfect environment for one-on-one, personal training sessions. Our friendly team are here to help you achieve your fitness goals.
+						Стоимость суточной аренды - 1 000 рублей<br>
+						Месячный абонемент - 25 000 рублей<br>
+						Годовой абонемент - 200 000 рублей
 					</p>
-					<a class="btn mb0" href="#">More Info</a>
+<!--					<a class="btn mb0" href="#">More Info</a>-->
 				</div>
 			</div><!--end of row-->
 		</div><!--end of container-->
@@ -138,10 +146,10 @@
 					<div class="bg-secondary pt64 pb64">
 						<h4 class="uppercase mb16">Подписаться</h4>
 						<p>
-							Будьте в курсе всех событий Интернета
+							Будьте в курсе всех событий
 						</p>
-						<form class="form-newsletter" data-success="Отправлено!">
-							<input type="text" class="validate-required validate-email signup-email-field" placeholder="Введите Email" />
+						<form action="php/subscription.php" method="post"  class="form-newsletter" data-success="Отправлено!">
+							<input required name="email"  type="text" class="validate-required validate-email signup-email-field" placeholder="Введите Email" />
 							<input type="submit" class="btn" value="Подписаться" />
 						</form>
 					</div>
@@ -151,9 +159,11 @@
 			<div class="row">
 				<div class="col-sm-12 text-center">
 					<ul class="list-inline social-list wide">
-						<li><a href="#"><i class="icon icon-sm ti-twitter-alt"></i></a></li>
-						<li><a href="#"><i class="icon icon-sm ti-facebook"></i></a></li>
-						<li><a href="#"><i class="icon icon-sm ti-instagram"></i></a></li>
+<!--						<li><a href="#"><i class="icon icon-sm ti-twitter-alt"></i></a></li>-->
+<!--						<li><a href="#"><i class="icon icon-sm ti-facebook"></i></a></li>-->
+<!--						<li><a href="#"><i class="icon icon-sm ti-instagram"></i></a></li>						<li><a href="#"><i class="icon icon-sm ti-twitter-alt"></i></a></li>-->
+<!--						<li><a href="#"><i class="icon icon-sm ti-facebook"></i></a></li>-->
+<!--						<li><a href="#"><i class="icon icon-sm ti-instagram"></i></a></li>-->
 					</ul>
 				</div>
 			</div><!--end of row-->

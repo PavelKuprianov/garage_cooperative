@@ -55,6 +55,13 @@
 .footer__row {
   margin-bottom: 30px;
 }
+/*.flex {*/
+/*  display: flex !important;*/
+/*}*/
+/*.flex-child{*/
+/*  align-self: stretch !important;*/
+/*}*/
+
 @media all and (max-width: 768px) {
   .pull-bottom-half {
     margin-bottom: -240px !important;

@@ -50,7 +50,7 @@
 	
 					<div class="col-sm-12 col-md-5 col-md-pull-2">
 						<ul class="menu pull-right">
-							<li><a href="index.html">Главная</a>
+							<li><a style="color: darkred;" href="index.html">Главная</a>
 							</li>
 							<li><a href="about.html">О нас</a></li>
 							 <li><a href="news.html">Подробности</a></li>
@@ -59,15 +59,15 @@
 	
 					<div class="col-md-5 col-sm-12 pb-xs-24">
 						<ul class="menu">
-							<li><a href="#">Статьи</a>
+							<li><a href="#">Клиентам</a>
 								<ul>
-									<li><a href="class-single.html">Статья №1</a></li>
-									<li><a href="class-single.html">Статья №1</a></li>
-									<li><a href="class-single.html">Статья №1</a></li>
-									<li><a href="class-single.html">Статья №1</a></li>
+									<li><a href="class-single.html">Парковка</a></li>
+									<li><a href="class-single.html">Боксы</a></li>
+<!--									<li><a href="class-single.html">Статья №1</a></li>-->
+<!--									<li><a href="class-single.html">Статья №1</a></li>-->
 								</ul>
 							</li>
-							<li><a href="info.html">Информация</a></li>
+							<li><a href="info.html">Стоимость</a></li>
 							<li><a href="contact-form.html">Контакты</a>
 							</li>
 						</ul>
@@ -160,7 +160,7 @@
 					<div class="row">
 						<div class="col-sm-12 text-center">
 							<h2 class="uppercase mb48">Мы выгодно отличаемся от конкурентов</h2>
-							<a class="btn btn-lg block-xs" href="#">О нас</a><br />
+							<a class="btn btn-lg block-xs" href="about.html">О нас</a><br />
 							<a class="fade-half" href="about.html">Ваш железный конь всегда в тепле и под надежным присмотром</a>
 						</div>
 					</div><!--end of row-->	
@@ -176,8 +176,8 @@
 								<ul class="mb0">
 									<li class="overflow-hidden text-center-sm mb40">
 										<div class="col-md-2 col-md-offset-1 mb24">
-											<span class="title mb16">Теплые уютные боксы </span>
-											<span>1 января 2023 года</span>
+											<span class="title mb16">Теплые боксы </span>
+											<span></span>
 										</div>
 							
 										<div class="col-md-6 mb24">
@@ -188,14 +188,14 @@
 										</div>
 							
 										<div class="col-md-3">
-											<a class="btn" href="class-single.html">Читать далее</a>
+											<a class="btn" href="news.html#box">Читать далее</a>
 										</div>
 									</li>
 									
 									<li class="overflow-hidden text-center-sm mb40">
 										<div class="col-md-2 col-md-offset-1 mb24">
-											<span class="title mb16">Парковочные места</span>
-											<span>1 января 2023 года</span>
+											<span class="title mb16">Парковка</span>
+											<span></span>
 										</div>
 							
 										<div class="col-md-6 mb24">
@@ -205,7 +205,7 @@
 										</div>
 							
 										<div class="col-md-3">
-											<a class="btn" href="class-single.html">Читать далее</a>
+											<a class="btn" href="news.html#park">Читать далее</a>
 										</div>
 									</li>
 								</ul>
@@ -230,8 +230,8 @@
 								<p>
 									Будьте в курсе всех событий
 								</p>
-								<form class="form-newsletter" data-success="Отправлено!">
-									<input type="text" class="validate-required validate-email signup-email-field" placeholder="Введите Email" />
+								<form action="php/subscription.php" method="post" class="form-newsletter" data-success="Отправлено!">
+									<input name="email" type="text" class="validate-required validate-email signup-email-field" required placeholder="Введите Email" />
 									<input type="submit" class="btn" value="Подписаться" />
 								</form>
 							</div>
