@@ -184,6 +184,7 @@ hr {
 .container {
   position: relative;
 }
+
 /*!---------- 2. MIXINS ----------*/
 .v-align-children {
   display: -webkit-flex;
@@ -422,6 +423,7 @@ p.large {
   color: #D8E9F0;
 }
 .sub a {color: #fff;}
+.sub a:hover {text-shadow: 1px 1px 1px #ffffff;;}
 span.title {
   font-size: 20px;
   display: block;
@@ -450,7 +452,6 @@ a {
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
-  cursor: poitner;
 }
 .image-bg a {
   color: #fff;
@@ -3089,3 +3090,49 @@ thead {
     padding-bottom: 120px;
   }
 }
+
+.bg-secondary {
+  position: relative;
+}
+.choice {
+  display: flex !important;
+  justify-content: space-between;
+}
+.register,
+.author {
+  display: none;
+}
+.activator {
+  display: block;
+}
+.box-top {
+  display: flex !important;
+  height: 20%;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: center;
+}
+.box-item {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  text-align: center;
+  border: 2px solid black;
+  flex: 0 0 20%;
+  margin-bottom: 10px;
+}
+.link-arenda {
+  display: block;
+  font-size: 16px;
+  font-weight: 700;
+}
+.link-arenda:hover {
+  transform: scale(1.1);
+}
+.rent {
+  display: none;
+}
+.form-date {
+  width: 20%;
+}
+

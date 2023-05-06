@@ -59,10 +59,10 @@
 
 					<div class="col-md-5 col-sm-12 pb-xs-24">
 						<ul class="menu">
-							<li><a  style="color: darkred;" href="#">Клиентам</a>
+							<li><a  style="color: darkred; text-shadow: 1px 1px 1px #ffffff;" href="#">Клиентам</a>
 								<ul>
-									<li><a href="class-single.html">Парковка</a></li>
-									<li><a href="class-single.html">Боксы</a></li>
+									<li><a href="#">Парковка</a></li>
+									<li><a href="class-single-box.php">Боксы</a></li>
 									<!--									<li><a href="class-single.html">Статья №1</a></li>-->
 									<!--									<li><a href="class-single.html">Статья №1</a></li>-->
 								</ul>
@@ -91,7 +91,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-10 col-md-offset-1 pt64 pb64 bg-secondary">
-							<h2 class="uppercase text-center mb64 mb-xs-24">Полное описание новости на сайте</h2>
+							<h2 class="uppercase text-center mb64 mb-xs-24">Страница парковки</h2>
 							<div class="col-md-8 col-md-offset-2">
 								<div class="mb40 mb-xs-24">
 									<p class="large mb32">
